@@ -11,7 +11,7 @@ This stage processes the raw TACO dataset.
     ```bash
     python curriculum_selection/data/data_process.py --input_path /path/to/raw/taco.jsonl --output_path curriculum_selection/data/taco/taco_cleaned.jsonl
     ```
-    For convenience, we also provide the pre-processed version at `curriculum_selection/data/taco/taco_cleaned.jsonl`.
+    For convenience, we provide the pre-processed version at `curriculum_selection/data/taco/taco_cleaned.jsonl` in the  supple-mentary material.
 
 ## Stage 2: Candidate Generation
 
