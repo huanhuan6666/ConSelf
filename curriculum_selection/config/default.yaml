@@ -1,0 +1,21 @@
+llm:
+  model_name: "qwen/qwen2.5-coder-7B-instruct"
+  local_model_path: /xxx/Qwen2.5-Coder-7B-Instruct
+  dtype: "bfloat16"
+  enable_prefix_caching: False
+  trust_remote_code: True
+  n: 1
+  max_tokens: 2048
+  temperature: 0.7
+  top_p: 0.8
+  confidence_top_k: 15
+
+sampling:
+  num_observations: 3
+  temperature_observations: 0.7
+  num_code_per_observation: 5
+  temperature_code: 1.0
+
+data:
+  dataset_path: "/xxx/taco"
+  save_dir: "curriculum_selection/data/processed"

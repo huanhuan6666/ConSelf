@@ -1,0 +1,28 @@
+{
+  "code_dpo_pairs": {
+    "file_name": "curriculum_selection/data/processed/taco/CodeLlama-7b-Instruct-hf/dpo_pairs.json",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "chosen": "chosen",
+      "rejected": "rejected",
+      "confidence": "chosen_output_confidence"
+    }
+  },
+  "code_pfpo_pairs": {
+    "file_name": "curriculum_selection/data/processed/taco/CodeLlama-7b-Instruct-hf/pfpo_pairs.json",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "chosen": "chosen", 
+      "rejected": "rejected"
+    }
+  },
+  "code_dpo_pairs_sft": {
+    "file_name": "curriculum_selection/data/processed/taco/deepseek-coder-6.7b-instruct/dpo_pairs.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "chosen" 
+    }
+  }
+}

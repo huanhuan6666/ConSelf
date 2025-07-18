@@ -1,0 +1,11 @@
+### model
+model_name_or_path: /xxx/Qwen2.5-Coder-7B-Instruct
+adapter_name_or_path: /xxx/Qwen2.5-Coder-7B-Instruct_merge
+template: qwen
+finetuning_type: lora
+
+### export
+export_dir: /xxx/Qwen2.5_condpo_lora
+export_size: 4
+export_device: cpu
+export_legacy_format: false
